@@ -1,0 +1,43 @@
+{
+    "poster": "https://hum.tv/wp-content/uploads/2024/03/Untitled-1.jpg",
+    "episodes": [
+        {
+            "title": "Episode 1",
+            "youtube_link": "https://www.youtube.com/watch?v=Cn5LLdQyq3E"
+        },
+        {
+            "title": "Episode 2",
+            "youtube_link": "https://www.youtube.com/watch?v=oUpWAKZ6aQs"
+        },
+        {
+            "title": "Episode 3",
+            "youtube_link": "https://www.youtube.com/watch?v=lG11SnlLt5A"
+        },
+        {
+            "title": "Episode 4",
+            "youtube_link": "https://www.youtube.com/watch?v=Vbzdt6K6n1A"
+        },
+        {
+            "title": "Episode 5",
+            "youtube_link": "https://www.youtube.com/watch?v=H3EsPXwz4_Q"
+        },
+        {
+            "title": "Episode 6",
+            "youtube_link": "https://www.twitch.tv/videos/2145582269"
+        },
+        {
+            "title": "Episode FB",
+            "youtube_link": "https://scontent-sea1-1.xx.fbcdn.net/v/t42.1790-2/10000000_1204294653891443_5795129656153610659_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNTQ1NzIyNTMzMDU5MjUyM30%3D&_nc_eui2=AeEEqk_vPjWSayU1yfOXCq8sPsGrFNjNwSY-wasU2M3BJml6Of_ixSlgIb8tSYoFgH0ONHIkOyFz3L2IuZZcL3xu&_nc_ohc=G6H4mPQAuyIQ7kNvgEP3VHO&_nc_rml=0&_nc_ht=scontent-sea1-1.xx&oh=00_AYB8djH-CBjo2WxeqGvI_vUM7bDuTZCHAfkjm8WNkT0qog&oe=664AD983"
+        },
+        {
+            "title": "Episode X",
+            "youtube_link": "https://www.espn.com/espnplus/player/_/id/2f816cdb-a5e6-4c00-9c5d-d81bbea903a1#bucketId=7294"
+        }
+
+
+
+
+
+
+    ]
+}

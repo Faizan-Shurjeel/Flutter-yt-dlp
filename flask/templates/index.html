@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sultan Salahuddin Ayyubi</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .header img {
+            width: 100%;
+            height: auto;
+            opacity: 0.8;
+        }
+        .header .title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .content {
+            padding: 20px;
+        }
+        .episode-button {
+            margin-top: 20px;
+        }
+        .quality-buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .video-player {
+            margin-top: 20px;
+        }
+        .spinner-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            z-index: 1000;
+        }
+        .spinner-overlay .spinner-border {
+            margin-top: 20%;
+        }
+        .spinner-overlay .message {
+            margin-top: 20px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img id="poster" src="" alt="Poster">
+        <div class="title">Sultan Salahuddin Ayyubi</div>
+    </div>
+    <div class="content container">
+        <div class="video-player">
+            <video id="videoPlayer" controls width="100%">
+                <source id="videoSource" src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div id="result" class="quality-buttons"></div>
+        <div id="episode-list" class="list-group"></div>
+    </div>
+    <div id="spinner-overlay" class="spinner-overlay">
+        <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="message">Preparing your Video</div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('/series.json')
+                .then(response => response.json())
+                .then(data => {
+                    const poster = document.getElementById('poster');
+                    poster.src = data.poster;
+                    
+                    const episodeList = document.getElementById('episode-list');
+                    data.episodes.forEach((episode, index) => {
+                        const episodeButton = document.createElement('button');
+                        episodeButton.className = 'list-group-item list-group-item-action btn btn-primary episode-button';
+                        episodeButton.innerHTML = episode.title;
+                        episodeButton.onclick = () => watchEpisode(episode.youtube_link);
+                        episodeList.appendChild(episodeButton);
+                    });
+                })
+                .catch(error => console.error('Error fetching series data:', error));
+        });
+
+        function watchEpisode(url) {
+            const spinnerOverlay = document.getElementById('spinner-overlay');
+            spinnerOverlay.style.display = 'block';
+
+            fetch('/get_media', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ url: url }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultDiv = document.getElementById('result');
+                resultDiv.innerHTML = '';
+                spinnerOverlay.style.display = 'none';
+
+                if (data.error) {
+                    resultDiv.innerHTML = `<p style="color: red;">Error: ${data.error}</p>`;
+                } else {
+                    data.media_urls.forEach((media, index) => {
+                        const mediaButton = document.createElement('button');
+                        mediaButton.className = 'btn btn-secondary quality-button';
+                        mediaButton.innerHTML = media.format;
+                        mediaButton.onclick = () => loadVideo(media.url, media.ext);
+                        resultDiv.appendChild(mediaButton);
+                    });
+                }
+            })
+            .catch(error => {
+                const resultDiv = document.getElementById('result');
+                resultDiv.innerHTML = `<p style="color: red;">Error: ${error}</p>`;
+                spinnerOverlay.style.display = 'none';
+            });
+        }
+
+        function loadVideo(url, ext) {
+            const videoPlayer = document.getElementById('videoPlayer');
+            const videoSource = document.getElementById('videoSource');
+            videoSource.src = url;
+            videoSource.type = 'video/' + ext;
+            videoPlayer.load();
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

